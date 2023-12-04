@@ -1,0 +1,255 @@
+
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    max-width: 600px;
+}
+p,h2{
+    margin: 0;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    background-color: #00438a;
+    display: grid;
+    place-items: center;
+    row-gap: 0.5rem;
+    color: white;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.top p{
+    font-weight: 600;
+}
+.menuSectionMain{
+    display: grid;
+    place-items: center;
+    padding: 10px 0;
+}
+.menuSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+}
+.bannerSection{
+    display: grid;
+    place-items: center;
+}
+.bannerContainer{
+    width: 96%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageContainer{
+    width: 100%;
+    height: 75vh;
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+.productSection{
+    margin-top: 0.5rem;
+    width: 96%;
+}
+.productSection h2{
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.categoryContainer{
+    display: flex;
+    column-gap: 0.6rem;
+}
+.categoryContainerScroll{
+    overflow-x: scroll;
+}
+.categoryContainerScroll::-webkit-scrollbar{
+    display: none;
+}
+.catItem{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+}
+.catItem img{
+    width: 9rem;
+    height: 13rem;
+    border-radius: 20px;
+}
+.catName{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 1rem;
+    -webkit-text-stroke: #b0b0b0 0.3px;
+    z-index: 100;
+    left: 1rem;
+}
+.top .navs{
+    display: flex;
+    column-gap: 0.8rem;
+}
+.cartCount{
+    color: white;
+    font-size: 0.7rem;
+    background-color: #00438a;
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+.cartI i::before{
+    color: rgb(41, 41, 41);
+    font-size: 1.2rem;
+}
+.hamI i::before{
+    color: rgb(41, 41, 41);
+    font-size: 1.2rem;
+}
+.productListing{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2rem;
+    row-gap: 1rem;
+}
+.prodItem{
+    width: 49%;
+    position: relative;
+}
+.imgCont{
+    width: 100%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+}
+.prodItem img{
+    width: 85%;
+}
+.likeItem{
+    position: absolute;
+    top: 0.2rem;
+    right: 0.5rem;
+    background-color: white;
+    padding: 2px 4px;
+    border-radius: 20px;
+}
+
+.likeItem i::before{
+    color: rgb(111, 111, 111);
+    font-size: 0.8rem;
+}
+.saleLabel{
+    color: white;
+    background-color: #00438a;
+    padding: 2px 7px;
+    position: absolute;
+    top: 1rem;
+    left: 5px;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    border-radius: 3px;
+}
+.offerLabel{
+    padding: 2px 2px;
+    background-color: #f5ccca;
+    color: #dc7f7f;
+    font-size: 0.6rem;
+    top: 2.2rem;
+    left: 5px;
+    position: absolute;
+    border-radius: 3px;
+}
+.categoryDiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+    row-gap: 0.2rem;
+}
+.categoryDiv span{
+    font-size: 0.8rem;
+    padding: 0 5px;
+}
+.categoryDiv span:nth-child(2){
+    border-left:1.5px solid #767676;
+}
+.priceDiv{
+    display: flex;
+    column-gap: 0.2rem;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+.offerPrice{
+    color: #dc7f7f;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+.actualPrice{
+    color: #6a6a6a;
+    font-weight: 600;
+}
+.starDiv i::before{
+    font-size: 0.6rem;
+    color: rgb(53, 53, 53);
+}
+.addToCart{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+
+
+
+/* single page styles */
+.singlePageContainerMain{
+    background-color: #dfdfdf;
+
+}
+.singlePageContainerMain .bannerSingle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+.bannerSingle img{
+    width: 19rem;
+    border-radius: 15px;
+}
+.attTocRT{
+    background: #efc416;
+    border-radius: 40px;
+    padding: 14px 0;
+    width: 90%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.page3Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.page3Main img{
+    width: 21rem;
+}
