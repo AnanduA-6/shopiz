@@ -546,3 +546,91 @@ p,h2{
     color: #808080;
     margin-bottom: 2rem;
 }
+
+.singleProductContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dfdfdf;
+    padding-bottom: 3rem;
+}
+.singleProductContainer .itemImg{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+.singleProductContainer .itemImg img{
+    width: 100%;
+    border-radius: inherit;
+}
+.singleProductContainer .prieDetailsDiv{
+    display: flex;
+    column-gap: 0.7rem;
+    align-items: center;
+    justify-content: start;
+    margin-top: 0.8rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    
+}
+.singleProductContainer .prieDetailsDiv .itemPrice{
+    color: #e27c7f;
+    font-weight: 600;
+}
+.singleProductContainer .prieDetailsDiv .itemActualPrice{
+    color: #9b9b9b;
+    font-size: 0.8rem;
+    text-decoration: line-through;
+}
+.singleProductContainer .prieDetailsDiv .itemSaveAmnt{
+    color: white;
+    background-color: #f53a3b;
+    padding: 2px 5px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+}
+.detailsContainer{
+    margin-top: 1rem;
+}
+.detailsContainer p{
+   font-size: 0.8rem;
+   color: #14141477;
+   margin-bottom: 0.5rem;
+}
+.itemCountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border: 1px solid #a7a7a7;
+    border-radius: 23px;
+    width: 25%;
+    margin-bottom: 1rem;
+}
+.itemCountContainer .increment,.decrement{
+    font-size: 1.2rem;
+}
+ .modelSelector{
+    outline: none;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px 0;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.singleProductContainer .addToCartBtn{
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 20px;
+    background-color: #efc416;
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 100%;
+    display: block;
+}
